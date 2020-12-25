@@ -8,21 +8,21 @@ on:
     types: [created]
   push:
   schedule:
-    - cron: '0 22 * * *'
-    - cron: '2 22 * * *'
-    - cron: '4 22 * * *'
-    - cron: '6 22 * * *'
+    - cron: '0 23 * * *'
+    - cron: '2 23 * * *'
+    - cron: '4 23 * * *'
+    - cron: '6 23 * * *'
       
       
-    - cron: '0 4 * * *'
-    - cron: '2 4 * * *'
-    - cron: '4 4 * * *'
-    - cron: '6 4 * * *'
+    - cron: '0 5 * * *'
+    - cron: '2 5 * * *'
+    - cron: '4 5 * * *'
+    - cron: '6 5 * * *'
       
-    - cron: '0 10 * * *'
-    - cron: '2 10 * * *'
-    - cron: '4 10 * * *'
-    - cron: '6 10 * * *'
+    - cron: '0 11 * * *'
+    - cron: '2 11 * * *'
+    - cron: '4 11 * * *'
+    - cron: '6 11 * * *'
       
 jobs:
   deploy:
