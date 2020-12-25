@@ -9,20 +9,20 @@ on:
   push:
   schedule:
     - cron: '0 22 * * *'
-    - cron: '0 22 * * *'
-    - cron: '0 22 * * *'
-    - cron: '0 22 * * *'
+    - cron: '2 22 * * *'
+    - cron: '4 22 * * *'
+    - cron: '6 22 * * *'
       
       
     - cron: '0 4 * * *'
-    - cron: '0 4 * * *'
-    - cron: '0 4 * * *'
-    - cron: '0 4 * * *'
+    - cron: '2 4 * * *'
+    - cron: '4 4 * * *'
+    - cron: '6 4 * * *'
       
-    - cron: '0 13 * * *'
-    - cron: '0 13 * * *'
-    - cron: '0 13 * * *'
-    - cron: '0 13 * * *'
+    - cron: '0 10 * * *'
+    - cron: '2 10 * * *'
+    - cron: '4 10 * * *'
+    - cron: '6 10 * * *'
       
 jobs:
   deploy:
